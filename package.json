@@ -1,0 +1,27 @@
+{
+  "name": "amazon-webdriverio-test",
+  "version": "1.0.0",
+  "description": "WebdriverIO test for Amazon search bar verification",
+  "main": "amazon-test.ts",
+  "scripts": {
+    "test": "ts-node amazon-test.ts"
+  },
+  "keywords": [
+    "webdriverio",
+    "typescript",
+    "automation",
+    "testing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^8.24.0",
+    "chromedriver": "^139.0.3",
+    "webdriverio": "^8.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
